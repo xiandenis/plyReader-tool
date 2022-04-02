@@ -17,6 +17,7 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 include_directories("include/")
 include_directories("src/")
 
+
 FILE(GLOB_RECURSE HDRS_FILES "src/*.h") 
 FILE(GLOB_RECURSE SRCS_FILES "src/*.cpp")
 
